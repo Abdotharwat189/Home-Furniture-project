@@ -1,0 +1,16 @@
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;  
+    height: 50px; 
+    border: 2px solid black;
+    border-radius: 50%; 
+    color: black; 
+    font-size: 20px; 
+    text-decoration: none;
+    
+  }
+  section{
+    font-family: 'Courier New', Courier, monospace;
+  }

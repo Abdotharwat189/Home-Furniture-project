@@ -1,0 +1,174 @@
+<!-- <p>portfolio works!</p> -->
+<!-- 
+<section class="my-5">
+  <div class="container text-center">
+
+    <h1 class="fw-bolder ">protfolio Furniture</h1>
+    <div class="star my-3">
+      <i class="fa-solid fa-star"></i>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <div class="row gy-3">
+      <div class="col-lg-4 position-relative lay item">
+        <img src="/Images/chair 3.jpg" alt="" width="100%" class="rounded-3 ">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50" (click)="display()"></i>
+        </div>
+      </div>
+      <div class="col-lg-4 position-relative lay">
+        <img src="/Images/chair 6.jpg" alt="" width="100%" class="rounded-3 ">
+
+        <div class="overlay position-absolute rounded-3">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+
+        </div>
+      </div>
+      <div class="col-lg-4 position-relative lay">
+        <img src="/Images/chair 5.jpg" alt="" width="100%" class="rounded-3 ">
+
+        <div class="overlay position-absolute rounded-3">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+
+        </div>
+      </div>
+      <div class="col-lg-4 position-relative lay">
+        <img src="/Images/chair 6.jpg" alt="" width="100%" class="rounded-3 ">
+
+        <div class="overlay position-absolute rounded-3">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+
+        </div>
+      </div>
+      <div class="col-lg-4 position-relative lay">
+        <img src="/Images/chair 7.jpg" alt="" width="100%" class="rounded-3 ">
+
+        <div class="overlay position-absolute rounded-3">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+
+        </div>
+      </div>
+      <div class="col-lg-4 position-relative lay">
+        <img src="/Images/chair 2.jpg" alt="" width="100%" class="rounded-3 ">
+
+        <div class="overlay position-absolute rounded-3">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+
+ 
+
+
+
+</section> -->
+
+
+
+<div class="container text-center">
+
+  <h1 class="fw-bolder ">protfolio Furniture</h1>
+  <div class="star my-3">
+    <i class="fa-solid fa-star"></i>
+  </div>
+</div>
+
+<div class="container my-5 ">
+  <div class="row g-5">
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 3.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 3.jpg">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 4.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 4.jpg" height="400">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 5.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 5.jpg">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 6.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 6.jpg">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 7.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 7.jpg">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>  
+
+
+
+    <div class="col-md-6 col-lg-4 lay">
+      <div class="rounded-3 maindiv overflow-hidden position-relative" (click)="openModal('/Images/chair 3.jpg')">
+        <img class="w-100 rounded-3" src="/Images/chair 3.jpg">
+        <div class="overlay position-absolute rounded-3 ">
+          <i class="fa-solid fa-plus position-absolute top-50 start-50"></i>
+        </div>
+
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+
+
+<div class="modal my-5" id="mymodal" tabindex="-1" #test>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" (click)="closeModal()" data-bs-dismiss="modal"
+          aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 rounded-3" #hamada>
+      </div>
+
+    </div>
+  
+  </div>
+</div>

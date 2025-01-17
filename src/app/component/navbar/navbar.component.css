@@ -1,0 +1,16 @@
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color:white;
+    --bs-navbar-disabled-color:red;
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: white
+    
+}
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+}
